@@ -8,6 +8,9 @@
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
+    footer{
+        background-color: #2f2f2f;
+    }
     #text div{
         padding: 4px;
     }
