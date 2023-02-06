@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Simple Portfilio</title>
+  </head>
+  <body class="">
+    <div id="app">
+      <header>
+        <nav id="nav-bar" class="p-9 flex justify-between text-3xl">
+          <div id="image" class="h-12">
+            <img class="rounded-md h-36" src="/Images/Pfp.png" alt="" id="pfp">
+          </div>
+          <ul class="flex gap-6 mt-6" id="tags">
+            <li><a class="text-gray-600 hover:text-orange-400 duration-300" href="#home">Home</a></li>
+            <li><a class="text-gray-600 hover:text-orange-400 duration-300" href="#">Projects</a></li>
+            <li><a class="text-gray-600 hover:text-orange-400 duration-300" href="#projects">Future Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div id="home">
+          <div class="m-8" id="text">
+            <div class="text-white p-1" id="intro">
+              <div id="first">
+                <span class=" tracking-wider font-medium text-5xl bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-600">Saad Naami</span>
+                <img class="w-52 border-2 mt-2 rounded-md border-slate-500" src="/Images/funny.png" alt="">
+              </div>
+              <div class="max-w-md tracking-widest text-2xl" id="second">
+                <p>Hello , I am a 21 year old Self-Thaught Full-Stack Developer
+                  From Morocco , I'm currently Learning Front-End Developement
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="languages">
+            <div id="language" class="bg-gradient-to-r shadow-lg items-center justify-center shadow-black from-black to-slate-800 text-4xl gap-8 text-white flex p-3 m-0">
+              <span class="text-black space-x-5 tracking-widest">HTML5 CSS3 TailWindCSS ReactJS</span>
+            </div>
+          </div>
+          <div id="prj">
+            <div class="flex justify-center items-center mt-12" id="title">
+              <h1 class="tracking-wider font-medium text-5xl bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-600">Future Projects</h1>
+            </div>
+              <div class="flex p-4 justify-center align-middle max-w-6xl" id="projects">
+                <div class="project1" id="project">
+                  <h1 class="text-transparent tracking-wider  bg-clip-text bg-gradient-to-r from-green-400 to-blue-400 text-3xl font-medium">E-Commerce</h1>
+                  <p class="mt-24">Planning On Making An E-Commerce TailwindCSS
+                     Template</p>
+                </div>
+                <div class="project2" id="project">
+                  <h1 class="text-transparent tracking-wider  bg-clip-text bg-gradient-to-r from-green-400 to-blue-400 text-3xl font-medium">Forum</h1>
+                  <p class="mt-24">A Full-Stack Forum App using Fastify
+                    , Mongoose And React
+                  </p>
+                </div>
+                <div class="project3" id="project">
+                  <h1 class="text-transparent tracking-wider  bg-clip-text bg-gradient-to-r from-green-400 to-blue-400 text-3xl font-medium">Youtube Clone</h1>
+                  <p class="mt-24">A Front End App Using ReactJS
+                    That Makes you watch youtube videos
+                  </p>
+                </div>
+                <div class="project4" id="project">
+                  <h1 class="text-transparent tracking-wider  bg-clip-text bg-gradient-to-r from-green-400 to-blue-400 text-3xl font-medium">Anime Lister</h1>
+                  <p class="mt-24">A Web App Used To look
+                    for people who watch anime and shares
+                    the same taste as you.
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

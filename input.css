@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    body,html{
+        background-color: #1E1E1E;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    #text div{
+        padding: 4px;
+    }
+    #language span{
+        animation: swipe 6s linear infinite;
+        -webkit-text-stroke: 1px #b8c3c9;
+    }
+    @keyframes swipe {
+        0%{
+            transform: translate(100%, 0);
+        }
+        100%{
+            transform: translate(-100%, 0);
+        }
+    }
+    #project{
+        background-color: #ffff;
+        height: 400px;
+        width: 400px;
+        max-width: 400px;
+        text-align: center;
+        margin: 5px 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    #projects{
+        margin: 0 auto;
+        flex-wrap: wrap;
+        line-break: auto;
+    }
+}
